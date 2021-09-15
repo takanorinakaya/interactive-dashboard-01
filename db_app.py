@@ -8,7 +8,7 @@ import pandas as pd
 
 st.title('日本の賃金データダッシュボード')
 
-df_jp_ind=pd.read_csv("./csv_data/雇用_医療福祉_一人当たり賃金_全国_全産業.csv",engine='python',encoding="shift_jis")
+df_jp_ind=pd.read_csv("./csv_data/雇用_医療福祉_一人当たり賃金_全国_全産業.csv",engine='python',encoding="shift_jis")#ファイル名が日本語------>engine='python'
 
 df_jp_category=pd.read_csv("./csv_data/雇用_医療福祉_一人当たり賃金_全国_大分類.csv",engine='python',encoding="shift_jis")
 df_pref_ind=pd.read_csv("./csv_data/雇用_医療福祉_一人当たり賃金_都道府県_全産業.csv",engine='python',encoding="shift_jis")
